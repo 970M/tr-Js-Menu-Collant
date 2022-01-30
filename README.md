@@ -9,11 +9,12 @@ https://grafikart.fr/tutoriels/menu-collant-108#autoplay
 
 V1.0.0 : Solution naïve
 V2.0.0 : Solution avec calcul de la position de l'élément dès le début
+V2.1.0 : Solution satisfaisante pour le menu et le texte
 
-1. Sortie du selecteur
-2. Calcule de la position de l'élément par rapport au haut de la fenêtre dès le début et le comparer par rapport au scroll de la fenêtre
-3. Ajout de combinatoire pour diminuer la fréquence d'appel de Add et Remove Class
+    1. Correction de la diminution de la largeur du menu lors du scroll
+    2. Ajout d'un faux élément pour remplacer le menu sous la topbar lorsque le menu est en position fixed (passage du texte sous l'élèment)
+    3. Suppression margin padding sur body
 
 ## BUG
 
-B3 : La largeur du menu diminue lorsqu'il passe en position fixed
+B4. La page n'est pas responsive, redimentionement à gérer
