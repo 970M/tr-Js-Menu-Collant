@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.topbar {
+    background-color: rgb(167, 167, 167);
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0 60px;
+    font-weight: bold;
+    border-bottom: 1px solid #bababa;
+}
+
+.menu {
+    background-color: #ccc;
+    display: flex;
+    z-index: 10;
+}
+
+.menu a {
+    display: inline-block;
+    /* text-decoration: none; */
+    padding: 15px 30px;
+    color: #505050;
+    border-right: 1px solid #2521ff;
+}
+
+.menu a:hover {
+    background-color: #eeeeee;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.text-box {
+    height: 4400px;
+    background-color: rgb(236, 236, 236);
+}
